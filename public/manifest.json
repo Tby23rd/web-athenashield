@@ -1,0 +1,32 @@
+{
+  "name": "athenashield - AI-Powered Solutions for FemTech Companies",
+  "short_name": "athenashield",
+  "description": "athenashield helps femtech brands design smarter customer experiences with AI-driven flows, from onboarding to personalized care.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "/images/logos/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logos/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["business", "health", "technology"],
+  "screenshots": [
+    {
+      "src": "/images/logos/logo.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    }
+  ],
+  "lang": "en-US",
+  "dir": "ltr",
+  "prefer_related_applications": false
+} 

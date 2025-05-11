@@ -1,0 +1,10 @@
+Partner logos should be added here with the following specifications:
+- partner1.png
+- partner2.png
+- partner3.png
+
+Recommended image specs:
+- Size: 300x200px
+- Format: PNG with transparency
+- Resolution: 72dpi
+- Max file size: 100KB

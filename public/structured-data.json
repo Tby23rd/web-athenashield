@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "athenashield",
+  "url": "https://athenashield.com",
+  "logo": "https://athenashield.com/images/logos/logo.png",
+  "sameAs": [
+    "https://twitter.com/athenashield",
+    "https://linkedin.com/company/athenashield",
+    "https://github.com/athenashield"
+  ],
+  "description": "athenashield helps femtech brands design smarter customer experiences with AI-driven flows, from onboarding to personalized care.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "US"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "email": "info@athenashield.com"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://athenashield.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+} 
