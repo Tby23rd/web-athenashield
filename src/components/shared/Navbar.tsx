@@ -67,7 +67,7 @@ const Navbar = () => {
               onClick={() => handleNavigation('/')}
             >
               <Image
-                src="/images/logos/logo-t.png"
+                src="/images/logos/logo-no-bg.png"
                 alt="athenashield Logo - Advanced Quantum Solutions"
                 width={200}
                 height={60}

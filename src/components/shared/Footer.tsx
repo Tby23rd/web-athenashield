@@ -147,9 +147,7 @@ const Footer = () => {
           <p className="text-sm text-gray-600 dark:text-gray-300">
             &copy; {currentYear} AthenaShield Inc. All rights reserved.
           </p>
-          <p className="text-xs text-gray-600 dark:text-gray-300 italic">
-            We use the term <span className="font-semibold">womxn</span> to be inclusive of all identities impacted by gendered online threats and email-based targeting.
-          </p>
+          
         </div>
       </div>
     </footer>
