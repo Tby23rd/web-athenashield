@@ -2,8 +2,7 @@
 
 import React, { useCallback } from 'react';
 import Image from 'next/image';
-import { Instagram, LinkedIn, LightMode, DarkMode } from '@mui/icons-material';
-import { FaTiktok } from 'react-icons/fa';
+import {  LightMode, DarkMode } from '@mui/icons-material';
 import Link from 'next/link';
 import { useTheme } from '@/context/ThemeContext';
 
@@ -41,35 +40,7 @@ const Footer = () => {
             <p className="text-gray-600 dark:text-gray-300 text-sm">
               AI Email Security from Phishing to Protection.
             </p>
-            <div className="flex space-x-4">
-              <a
-                href="https://www.instagram.com/athenashield/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-cyan-200 dark:text-cyan-800 hover:dark:text-cyan-700 hover:text-cyan-100 hover:scale-110 transition-all duration-300"
-                title="Instagram"
-              >
-                <Instagram fontSize="large" />
-              </a>
-              <a
-                href="https://www.linkedin.com/company/athenashield"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-cyan-200 hover:text-cyan-100 dark:text-cyan-800 hover:dark:text-cyan-700 hover:scale-110 transition-all duration-300"
-                title="LinkedIn"
-              >
-                <LinkedIn fontSize="large" />
-              </a>
-              <a
-                href="https://www.tiktok.com/@athenashield"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-cyan-200 hover:text-cyan-100 dark:text-cyan-800 hover:dark:text-cyan-700 hover:scale-110 transition-all duration-300"
-                title="TikTok"
-              >
-                <FaTiktok size={30} />
-              </a>
-            </div>
+            
           </div>
 
           {/* Product */}
@@ -89,7 +60,6 @@ const Footer = () => {
               <li><Link href="/blogs" className="text-gray-600 dark:text-gray-300 hover:text-cyan-200">Blog</Link></li>
               <li><Link href="/about#careers" className="text-gray-600 dark:text-gray-300 hover:text-cyan-200">Careers</Link></li>
               <li><Link href="/use-cases" className="text-gray-600 dark:text-gray-300 hover:text-cyan-200">Use Cases</Link></li>
-              <li><Link href="https://open.athenashield.com" className="text-gray-600 dark:text-gray-300 hover:text-cyan-200">Community</Link></li>
             </ul>
           </div>
 
@@ -98,7 +68,6 @@ const Footer = () => {
             <h3 className="text-xl font-semibold mb-4 text-cyan-100 dark:text-cyan-800">Company</h3>
             <ul className="space-y-2">
               <li><Link href="/about#about-hero" className="text-gray-600 dark:text-gray-300 hover:text-cyan-200">About Us</Link></li>
-              <li><Link href="/quantum" className="text-gray-600 dark:text-gray-300 hover:text-cyan-200">Quantum Research</Link></li>
               <li><Link href="/about#contact" className="text-gray-600 dark:text-gray-300 hover:text-cyan-200">Contact</Link></li>
               <li><Link href="/about#faq" className="text-gray-600 dark:text-gray-300 hover:text-cyan-200">FAQ</Link></li>
             </ul>
