@@ -6,7 +6,7 @@ import { Button } from 'react-bootstrap';
 
 const CTA = () => {
   const handleDemo = () => {
-    window.location.href = 'https://calendly.com/hello-athenashield/athenashield-intro';
+    window.location.href = 'https://demo-athenashield.netlify.app/';
   };
 
   const handleContact = () => {

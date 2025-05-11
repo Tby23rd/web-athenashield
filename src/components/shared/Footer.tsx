@@ -34,7 +34,6 @@ const Footer = () => {
                 width={180}
                 height={120}
                 alt="AthenaShield Logo"
-                className="dark:invert"
               />
             </div>
             <p className="text-gray-600 dark:text-gray-300 text-sm">

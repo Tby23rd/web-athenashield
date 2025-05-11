@@ -65,7 +65,7 @@ const PricingPage = () => {
   const [billing, setBilling] = useState<'monthly' | 'yearly'>('monthly');
 
   const handleDemo = () => {
-    window.location.href = 'https://calendly.com/hello-athenashield/athenashield-intro';
+    window.location.href = 'https://demo-athenashield.netlify.app/';
   };
 
   return (

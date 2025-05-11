@@ -69,9 +69,8 @@ const Navbar = () => {
               <Image
                 src="/images/logos/logo-no-bg.png"
                 alt="athenashield Logo - Advanced Quantum Solutions"
-                width={200}
-                height={60}
-                className="dark:invert"
+                width={40}
+                height={20}
                 priority // SEO: Prioritize logo loading
               />
             </div>

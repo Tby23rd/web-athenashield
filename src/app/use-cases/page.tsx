@@ -85,16 +85,17 @@ const handleContact = () => {
 
 export default function UseCasesPage() {
   return (
-    <div className="bg-white text-gray-900">
+    <div className="bg-white text-gray-900 dark:bg-black dark:text-white">
       {/* Hero */}
-      <section className="py-24 text-center bg-gradient-to-br from-cyan-100 via-white to-cyan-200">
+      <section className="py-24 text-center bg-gradient-to-br from-cyan-100 via-white to-cyan-200 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+
         <h1 className="text-5xl font-bold mb-6">Explore AthenaShield Use Cases</h1>
         <p className="text-xl max-w-2xl mx-auto mb-10">
           Discover how our AI-powered platform helps protect inboxes with smarter detection, real-time analysis, and seamless integration.
         </p>
         <button
         onClick={handleContact}
-         className="bg-cyan-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-cyan-500 transition">
+         className="bg-cyan-600  px-8 py-3 rounded-full font-semibold hover:bg-cyan-500 transition">
           🚀 Get Started Now
         </button>
       </section>
@@ -102,10 +103,10 @@ export default function UseCasesPage() {
       {/* Use Case Cards */}
       <section className="py-20 max-w-7xl mx-auto px-4 grid gap-12 md:grid-cols-2">
         {useCases.map((uc, idx) => (
-          <div key={idx} className="bg-white border border-gray-200 p-6 rounded-xl shadow-lg hover:shadow-xl transition">
+          <div key={idx} className="bg-white dark:bg-gray-900 border border-cyan-200 p-6 rounded-xl shadow-lg hover:shadow-xl transition">
             <h2 className="text-2xl font-bold mb-2">{uc.title}</h2>
-            <p className="text-gray-700 mb-4">{uc.description}</p>
-            <ul className="list-disc pl-5 space-y-1 text-gray-600">
+            <p className=" mb-4">{uc.description}</p>
+            <ul className="list-disc pl-5 space-y-1 ">
               {uc.examples.map((example, i) => (
                 <li key={i}>{example}</li>
               ))}
@@ -115,12 +116,14 @@ export default function UseCasesPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-gray-100 text-center">
+      <section className="py-20 bg-gray-100 dark:bg-gray-800 text-center">
         <h2 className="text-3xl font-bold mb-4">🛡️ Ready to Shield Your Inbox?</h2>
-        <p className="text-xl mb-6 text-gray-700">
+        <p className="text-xl mb-6 ">
           AthenaShield helps you stay secure — without slowing down your workflow.
         </p>
-        <button className="bg-cyan-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-cyan-500 transition">
+        <button
+        onClick={handleContact}
+         className="bg-cyan-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-cyan-500 transition">
           🌐 Try AthenaShield Free
         </button>
       </section>

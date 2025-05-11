@@ -4,7 +4,7 @@ import React from 'react';
 
 const AthenaShieldPartnerships = () => {
   const handleExploreFeatures = () => {
-    window.location.href = 'https://calendly.com/hello-athenashield/athenashield-intro';
+    window.location.href = 'https://demo-athenashield.netlify.app/';
   };
 
   return (
