@@ -28,13 +28,13 @@ const Navbar = () => {
   // SEO: Use proper anchor tag for external links
   const DemoButton = () => (
     <a
-      href="https://calendly.com/hello-athenashield/athenashield-intro"
+      href="https://demo-athenashield.netlify.app/"
       target="_blank"
       rel="noopener noreferrer"
       className="px-6 py-2 bg-cyan-800 dark:bg-cyan-100 text-white dark:text-black rounded-full hover:bg-cyan-200 dark:hover:bg-cyan-400 transition-colors"
       aria-label="Schedule a demo with athenashield"
     >
-      Book a Demo
+      View a Demo
     </a>
   );
 

@@ -79,6 +79,10 @@ const useCases = [
   },
 ];
 
+const handleContact = () => {
+  window.location.href = 'https://demo-athenashield.netlify.app/onboarding';
+};
+
 export default function UseCasesPage() {
   return (
     <div className="bg-white text-gray-900">
@@ -88,7 +92,9 @@ export default function UseCasesPage() {
         <p className="text-xl max-w-2xl mx-auto mb-10">
           Discover how our AI-powered platform helps protect inboxes with smarter detection, real-time analysis, and seamless integration.
         </p>
-        <button className="bg-cyan-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-cyan-500 transition">
+        <button
+        onClick={handleContact}
+         className="bg-cyan-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-cyan-500 transition">
           🚀 Get Started Now
         </button>
       </section>

@@ -9,6 +9,10 @@ const CTA = () => {
     window.location.href = 'https://calendly.com/hello-athenashield/athenashield-intro';
   };
 
+  const handleContact = () => {
+    window.location.href = 'https://demo-athenashield.netlify.app/onboarding';
+  };
+
   return (
     <section className="relative py-24 overflow-hidden">
       {/* Background with animated gradient */}
@@ -36,10 +40,10 @@ const CTA = () => {
         Get Early Access
       </Button>
       <Button
-        onClick={handleDemo}
+        onClick={handleContact}
         className="px-8 py-4 bg-transparent backdrop-blur-sm text-white border-2 border-white/80 dark:border-gray-300/80 rounded-full font-semibold hover:bg-white/10 dark:hover:bg-gray-700/10 hover:border-white dark:hover:border-gray-200 transition-colors duration-300 shadow-lg hover:shadow-xl"
       >
-        Book a Demo
+        View a Demo
       </Button>
     </div>
   </div>
